@@ -1,0 +1,11 @@
+<h1>Users</h1>
+
+<ul>
+  <li *ngFor="let user of home$">
+    {{ user.name }}
+    <ul>
+      <li>{{ user.email }}</li>
+      <li>{{ user.dob }}</li>
+    </ul>
+  </li>
+</ul>
